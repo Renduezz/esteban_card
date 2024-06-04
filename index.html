@@ -5,90 +5,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>esteban_card</title>
-    <link rel="shortcut icon" href="./OIG.jpeg" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <style>
-        body {
-            min-height: 100vh;
-            margin: 0%;
-            background-image: url(./p.jpeg);
-            background-size: cover;
-            background-position: center;
-            color: white;
-            font-family: monospace;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-        }
-
-
-        main {
-            max-width: 512px;
-            background-color: rgba(0, 0, 0, 0.5);
-            margin: 16px;
-            border-radius: 16px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 12px;
-        }
-
-        img {
-            display: block;
-            border-radius: 50%;
-        }
-
-
-        h1,
-        h2,
-        p {
-            margin: 0;
-            text-align: center;
-        }
-
-        h2 {
-            font-size: 14px;
-        }
-
-        ul {
-            padding: 0;
-            margin: 0;
-            display: flex;
-            gap: 16px;
-            list-style: none;
-
-        }
-
-        a {
-            color: white;
-            font-size: 34px;
-        }
-    </style>
+    <link rel="shortcut icon" href="./img/OIG.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
 </head>
 
-<body>
 
+<body class="body">
     <main>
-
-        <img src="./th.jpeg" alt="esteban" width="256" height="256" />
-        <h1>Renduezz</h1>
-        <h2>Directos todos los dias</h2>
-        <p>
-            🔥profesional en el arte de las manqueadas🔥
-        </p>
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/renduezz/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitch.tv/renduezz" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitch"></i></a>
-                
-            </li>
-        </ul>
-
+        <div class="card">
+            <img src="./img/th.jpeg" alt="esteban" width="256" height="256" class="img" />
+            <h1 class="card__title">Renduezz</h1>
+            <h2 class="card__subtitle">Directos todos los dias</h2>
+            <p class="card__text">
+                🔥profesional en el arte de las manqueadas🔥
+            </p>
+            <ul class="list">
+                <li>
+                    <a href="https://www.instagram.com/renduezz/" target="_blank" rel="noopener noreferrer"
+                        class="link">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitch.tv/renduezz" target="_blank" rel="noopener noreferrer" class="link">
+                        <i class="bi bi-twitch"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </main>
 
 </body>
